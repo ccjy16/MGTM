@@ -1,0 +1,34 @@
+# Benchmark data and pretrained assets
+/data/
+/pretrained_weights/
+*.mdb
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Runtime artifacts
+outputs/
+checkpoints/
+logs/
+results/
+feature_cache/
+feature_caches/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
